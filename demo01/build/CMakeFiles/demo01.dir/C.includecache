@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/han/code/cmake_learn/cmake/demo01/add.c
+stdio.h
+-
+head.h
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
+/home/han/code/cmake_learn/cmake/demo01/div.c
+stdio.h
+-
+head.h
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
+/home/han/code/cmake_learn/cmake/demo01/main.c
+stdio.h
+-
+head.h
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
+/home/han/code/cmake_learn/cmake/demo01/mult.c
+stdio.h
+-
+head.h
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
+/home/han/code/cmake_learn/cmake/demo01/sub.c
+stdio.h
+-
+head.h
+/home/han/code/cmake_learn/cmake/demo01/head.h
+
